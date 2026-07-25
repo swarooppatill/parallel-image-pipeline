@@ -1,0 +1,10 @@
+# Ignore raw images and benchmark output logs
+input/*
+output/*
+logs/*
+
+# Keep directory structures intact
+!input/.gitkeep
+!output/.gitkeep
+!logs/.gitkeep
+
